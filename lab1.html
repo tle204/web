@@ -1,0 +1,98 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="lab1.css">
+            <title>lab</title>
+        </head>
+        <style>
+            h2 { 
+                color: rgb(0, 89, 255);
+                background-color: rgb(131, 193, 243);
+            }
+            .blue_text{
+                color: rgb(91, 157, 245);
+            }
+            .darkblue_text{
+                color: rgb(38, 83, 168);
+            }
+            table, td,th{
+            border: 2px solid;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgb(221, 221, 221);
+        }
+        </style>
+        <body>
+                <h1>Dog D.Dog</h1>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRoZe7REPefJOi9T_qe87pHLjXoZKxxypJH3en8xs&s" 
+                height="250px" style="display: flex; position: absolute; right: 0;z-index: 0;" alt="">
+                <h2>About</h2>
+                <p>
+                    Woof Woof!
+                    <br>
+                    Hi, I'm Dog. I love <strong class="blue_text">User Interface Design</strong>
+                </p>
+            <h2>Courses</h2>
+            <p>Here are some courses I've taken:</p>
+            <br>
+            <table>
+                <tr>
+                    <th>Course Number</th>
+                    <th style="padding-right: 30px; padding-left: 30px;">Course Title</th>
+                    <th>Semester Taken</th>
+                </tr>
+                <tr>
+                    <td colspan="3" style="font-weight: bold; text-align: center;">For Credit</td>
+                </tr>
+                <tr>
+                    <td><span class="darkblue_text">6.813</span></td>
+                    <td><span class="blue_text">User Interface</span></td>
+                    <td><span class="blue_text">Spring 2014</span></td>
+                </tr>
+                <tr>
+                    <td><span class="darkblue_text">6.034</span></td>
+                    <td>AI</td>
+                    <td>Fall 2013</td>
+                </tr>
+                <tr>
+                    <td><span class="darkblue_text">6.006</span></td>
+                    <td>IA</td>
+                    <td>Fall 2013</td>
+                </tr>
+                <tr> 
+                    <td colspan="3" style="font-weight: bold; text-align: center;">Listener</td>
+                </tr>
+                <tr>
+                    <td><span class="blue_text">6.867</span></td>
+                    <td>Machine Learning</td>
+                    <td>Fall 2013</td>
+                </tr>
+                <tr>
+                    <td><span class="blue_text">6.830</span></td>
+                    <td>Database Systems</td>
+                    <td>Fall 2012</td>
+                </tr>
+            </table>  
+            <h2>Interests</h2>
+            <p>I am interested <span style="font-weight: bold;">HCI</span>, meme, and youtube videos </p>
+            <h2>Submit Pet Information</h2>
+            <p>Would love to know what kinds of pets you 'own' (you'll never own me). Submit below!</p>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="phyum">Phyum</label>
+                <input type="text" id="phyum" name="phyum">
+                <br>
+                <label for="gender">Gender</label>
+                <input type="text" id="gender" name="gender">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </body>
+
+        </html>
