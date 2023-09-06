@@ -1,0 +1,9 @@
+.container{
+    width: 500px;
+    margin: auto;
+    background-color: #fea500;
+    color: white;
+}
+table{
+    border-spacing: 10px;
+}
