@@ -86,9 +86,9 @@ a:active{
 	line-height: 30px;
 	background-image: linear-gradient(to bottom, #d6b708, #a79e7b)
 }
-/* .news{
+.news{
 	clear: both;
-} */
+} 
 .content{
 	color: white;
   font-size: 25px;
